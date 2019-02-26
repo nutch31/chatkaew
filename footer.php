@@ -1,0 +1,122 @@
+
+
+    
+    <footer class="site-footer">
+      <div class="container">
+        
+
+        <div class="row">
+          <div class="col-md-8">
+            <h3 class="footer-heading mb-4 text-white">ข้อมูลติดต่อ / Contact Address</h3>
+            <p>Address : 994/1 หมู่ 19 ตำบล หนองมะค่าโมง อำเภอ ด่านช้าง จังหวัด สุพรรณบุรี  72180</p>
+            <p>Phone : <a href="tel:+0868019797">086-8019797, 035-595462</a></p>
+            <p>Fax : <a href="#">035-595462</a></p>
+            <p>Location : <a href="https://www.google.co.th/maps/place/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%A1%E0%B8%89%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7/@14.8413542,99.7039853,17z/data=!3m1!4b1!4m5!3m4!1s0x30e3d877c61faf11:0xef4f7669c5ff8d02!8m2!3d14.841349!4d99.706174?hl=th"  target="_blank">Map</a></p>
+            <p>Email  : <a href="mailto:reservation@chatkaewhotel.com">reservation@chatkaewhotel.com</a></p>
+            <p>Line : chatkaew34</p>
+          </div>
+		  <!--
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="footer-heading mb-4 text-white">Quick Menu</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Approach</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6">
+                <h3 class="footer-heading mb-4 text-white">Ministries</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Children</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Bible Study</a></li>
+                    <li><a href="#">Church</a></li>
+                    <li><a href="#">Missionaries</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+		  -->
+
+          
+          <div class="col-md-4">
+            <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Social Icons</h3></div>
+              <div class="col-md-12">
+                <p>
+                  <a href="#" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
+                  <a href="#" class="p-2"><span class="icon-twitter"></span></a>
+                  <a href="#" class="p-2"><span class="icon-instagram"></span></a>
+                  <a href="#" class="p-2"><span class="icon-vimeo"></span></a>
+                </p>
+              </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <!--Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>-->
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  
+  <script src="js/mediaelement-and-player.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+                var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
+
+                for (var i = 0; i < total; i++) {
+                    new MediaElementPlayer(mediaElements[i], {
+                        pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
+                        shimScriptAccess: 'always',
+                        success: function () {
+                            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
+                            for (var j = 0; j < targetTotal; j++) {
+                                target[j].style.visibility = 'visible';
+                            }
+                  }
+                });
+                }
+            });
+    </script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-51761031-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-51761031-2');
+	</script>
+
+
+  </body>
+</html>
