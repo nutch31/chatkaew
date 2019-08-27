@@ -28,7 +28,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: noreply-chatkaew@hotmail.com' . "\r\n";
 $headers .= 'Cc: nut_ch31@hotmail.com' . "\r\n";
 
-mail($to,$subject,$message,$headers);
+//mail($to,$subject,$message,$headers);
 ?>
 
 
